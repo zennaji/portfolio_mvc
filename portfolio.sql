@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Gegenereerd op: 03 dec 2021 om 16:04
+-- Gegenereerd op: 09 dec 2021 om 19:10
 -- Serverversie: 10.4.21-MariaDB
 -- PHP-versie: 8.0.10
 
@@ -65,13 +65,14 @@ CREATE TABLE `project` (
 --
 
 INSERT INTO `project` (`id`, `name`, `image`, `discription`, `link`, `github_link`) VALUES
-(1, 'Bloemenbinderij Webshop', 'IMGS/projects_imgs/bloem.jpg', 'Dit is een webshop van een bloembinderij met veel verschillende soorten bloemen en de beschrijkving van elke type.', 'projects/bloem.html', ''),
-(2, 'Lenght converter', 'IMGS/projects_imgs/tool_meten.jpg', 'Dit is een simpl reken tool die geprogrammeert is in JS, met deze rekentool kan je ft converteren naar meter.', 'projects/Tool1.html', ''),
-(3, 'Puzzle', 'IMGS/projects_imgs/puzzle.jpg', 'Dit is een schuifpuzzle spelletje die geprogrammeert is in JS, je moet de fotos op volgorde zetten zodat je de hele foto kan zien.', 'projects/puzzle.html', ''),
-(4, 'Tic Tac Toe', 'IMGS/projects_imgs/tictactoe.jpg', 'Dit is een tic tac toe spelletje die geprogrammeert is in JS.', 'projects/tictactoe.html', ''),
-(5, 'Steen Papier Schaar', 'IMGS/projects_imgs/sps.jpg', 'Dit is een Steen-Ppier-Schaar spelletje die gemaakt is in HTML en CSS, en geprogrammeerd is in JavaScript.', 'projects/SPS_GAME/index.html', ''),
-(6, 'Rooster', 'IMGS/projects_imgs/kdlrooster.jpg', 'Dit is een KDL project, een rooster van extra fysieke lessen.', 'projects/login.html', ''),
-(7, 'Steen Papier Schaar Console', 'IMGS/projects_imgs/spsc.jpg', 'Dit is console applicatie versie van het spel steen-papier-schaar.\r\nHet is geprogrammeerd in C# programmeertaal.', 'https://github.com/zennaji', '');
+(1, 'Bloemenbinderij Webshop', 'IMGS/projects_imgs/bloem.jpg', 'Dit is een webshop van een bloembinderij met veel verschillende soorten bloemen en de beschrijkving van elke type.', 'https://github.com/ROCMondriaanTIN/sd-portfolio-bootstrap-zennaji.git', ''),
+(2, 'Lenght converter', 'IMGS/projects_imgs/tool_meten.jpg', 'Dit is een simpl reken tool die geprogrammeert is in JS, met deze rekentool kan je ft converteren naar meter.', 'https://github.com/zennaji/rekentool.git', ''),
+(3, 'Puzzle', 'IMGS/projects_imgs/puzzle.jpg', 'Dit is een schuifpuzzle spelletje die geprogrammeert is in JS, je moet de fotos op volgorde zetten zodat je de hele foto kan zien.', 'https://github.com/', ''),
+(4, 'Tic Tac Toe', 'IMGS/projects_imgs/tictactoe.jpg', 'Dit is een tic tac toe spelletje die geprogrammeert is in JS.', 'https://github.com/ROCMondriaanTIN/sd20-js-p4-bke-eindopdracht-zennaji.git', ''),
+(5, 'Steen Papier Schaar', 'IMGS/projects_imgs/sps.jpg', 'Dit is een Steen-Ppier-Schaar spelletje die gemaakt is in HTML en CSS, en geprogrammeerd is in JavaScript.', 'https://github.com/zennaji/spsGame.git', ''),
+(6, 'Rooster', 'IMGS/projects_imgs/kdlrooster.jpg', 'Dit is een KDL project, een rooster van extra fysieke lessen.', 'https://github.com/', ''),
+(7, 'Steen Papier Schaar Console', 'IMGS/projects_imgs/spsc.jpg', 'Dit is console applicatie versie van het spel steen-papier-schaar.\r\nHet is geprogrammeerd in C# programmeertaal.', 'https://github.com/zennaji', ''),
+(8, 'Escaperoom', 'IMGS/projects_imgs/escape.jpg', 'Dit is een escaperoom game, je moet elke puzlle oplossen om naar de volgende te gaan, en uit eindelijk kom je achter een key om de game sf te ronden.\r\nhet is gemaakt in HTML, CSS, AND JS', 'https://github.com/zennaji/escaperoom.git', '');
 
 --
 -- Indexen voor geëxporteerde tabellen
@@ -115,7 +116,7 @@ ALTER TABLE `languagerow`
 -- AUTO_INCREMENT voor een tabel `project`
 --
 ALTER TABLE `project`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- Beperkingen voor geëxporteerde tabellen
